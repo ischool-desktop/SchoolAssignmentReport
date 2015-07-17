@@ -28,6 +28,8 @@ namespace AllWorkReport
           private string URL社團參與證明單1 = "ischool/高雄專案/學生/報表/社團/社團參與證明單_高雄";
           private string URL社團參與證明單2 = "ischool/產品/學生/報表/社團/社團參與證明單";
 
+          private string URL轉出回條 = "ischool/國中系統/學生/報表/學籍/轉出回條";
+
           public OperationForm()
           {
                InitializeComponent();
@@ -141,6 +143,19 @@ namespace AllWorkReport
                          MsgBox.Show("無此功能");
                     }
                }
+          }
+
+          private void buttonX8_Click(object sender, EventArgs e)
+          {
+              try
+              {
+                  Features.Invoke(URL轉出回條);
+                  checkBoxX8.Checked = true;
+              }
+              catch
+              {
+                  MsgBox.Show("未掛載相關模組!");
+              }
           }
      }
 }
