@@ -53,6 +53,9 @@
             this.checkBoxX8 = new DevComponents.DotNetBar.Controls.CheckBoxX();
             this.labelX8 = new DevComponents.DotNetBar.LabelX();
             this.buttonX8 = new DevComponents.DotNetBar.ButtonX();
+            this.checkBoxX9 = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.labelX9 = new DevComponents.DotNetBar.LabelX();
+            this.buttonX9 = new DevComponents.DotNetBar.ButtonX();
             this.SuspendLayout();
             // 
             // buttonX1
@@ -75,7 +78,7 @@
             this.btnExit.AutoSize = true;
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnExit.Location = new System.Drawing.Point(297, 414);
+            this.btnExit.Location = new System.Drawing.Point(297, 451);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 25);
             this.btnExit.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -107,7 +110,7 @@
             // 
             this.labelX2.BackgroundStyle.Class = "";
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(27, 271);
+            this.labelX2.Location = new System.Drawing.Point(27, 315);
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(127, 21);
             this.labelX2.TabIndex = 3;
@@ -119,7 +122,7 @@
             this.buttonX2.AutoSize = true;
             this.buttonX2.BackColor = System.Drawing.Color.Transparent;
             this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Location = new System.Drawing.Point(181, 269);
+            this.buttonX2.Location = new System.Drawing.Point(181, 313);
             this.buttonX2.Name = "buttonX2";
             this.buttonX2.Size = new System.Drawing.Size(75, 25);
             this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -136,7 +139,7 @@
             // 
             this.labelX3.BackgroundStyle.Class = "";
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(27, 75);
+            this.labelX3.Location = new System.Drawing.Point(27, 119);
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(74, 21);
             this.labelX3.TabIndex = 6;
@@ -148,7 +151,7 @@
             this.buttonX3.AutoSize = true;
             this.buttonX3.BackColor = System.Drawing.Color.Transparent;
             this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX3.Location = new System.Drawing.Point(181, 73);
+            this.buttonX3.Location = new System.Drawing.Point(181, 117);
             this.buttonX3.Name = "buttonX3";
             this.buttonX3.Size = new System.Drawing.Size(75, 25);
             this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -165,7 +168,7 @@
             // 
             this.labelX4.BackgroundStyle.Class = "";
             this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Location = new System.Drawing.Point(27, 124);
+            this.labelX4.Location = new System.Drawing.Point(27, 168);
             this.labelX4.Name = "labelX4";
             this.labelX4.Size = new System.Drawing.Size(127, 21);
             this.labelX4.TabIndex = 9;
@@ -177,7 +180,7 @@
             this.buttonX4.AutoSize = true;
             this.buttonX4.BackColor = System.Drawing.Color.Transparent;
             this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX4.Location = new System.Drawing.Point(181, 122);
+            this.buttonX4.Location = new System.Drawing.Point(181, 166);
             this.buttonX4.Name = "buttonX4";
             this.buttonX4.Size = new System.Drawing.Size(75, 25);
             this.buttonX4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -194,7 +197,7 @@
             // 
             this.labelX5.BackgroundStyle.Class = "";
             this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX5.Location = new System.Drawing.Point(27, 173);
+            this.labelX5.Location = new System.Drawing.Point(27, 217);
             this.labelX5.Name = "labelX5";
             this.labelX5.Size = new System.Drawing.Size(127, 21);
             this.labelX5.TabIndex = 12;
@@ -206,7 +209,7 @@
             this.buttonX5.AutoSize = true;
             this.buttonX5.BackColor = System.Drawing.Color.Transparent;
             this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX5.Location = new System.Drawing.Point(181, 171);
+            this.buttonX5.Location = new System.Drawing.Point(181, 215);
             this.buttonX5.Name = "buttonX5";
             this.buttonX5.Size = new System.Drawing.Size(75, 25);
             this.buttonX5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -223,7 +226,7 @@
             // 
             this.labelX6.BackgroundStyle.Class = "";
             this.labelX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX6.Location = new System.Drawing.Point(27, 222);
+            this.labelX6.Location = new System.Drawing.Point(27, 266);
             this.labelX6.Name = "labelX6";
             this.labelX6.Size = new System.Drawing.Size(114, 21);
             this.labelX6.TabIndex = 15;
@@ -235,7 +238,7 @@
             this.buttonX6.AutoSize = true;
             this.buttonX6.BackColor = System.Drawing.Color.Transparent;
             this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX6.Location = new System.Drawing.Point(181, 220);
+            this.buttonX6.Location = new System.Drawing.Point(181, 264);
             this.buttonX6.Name = "buttonX6";
             this.buttonX6.Size = new System.Drawing.Size(75, 25);
             this.buttonX6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -270,7 +273,7 @@
             this.checkBoxX2.BackgroundStyle.Class = "";
             this.checkBoxX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.checkBoxX2.Enabled = false;
-            this.checkBoxX2.Location = new System.Drawing.Point(292, 271);
+            this.checkBoxX2.Location = new System.Drawing.Point(292, 315);
             this.checkBoxX2.Name = "checkBoxX2";
             this.checkBoxX2.Size = new System.Drawing.Size(80, 21);
             this.checkBoxX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -287,7 +290,7 @@
             this.checkBoxX3.BackgroundStyle.Class = "";
             this.checkBoxX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.checkBoxX3.Enabled = false;
-            this.checkBoxX3.Location = new System.Drawing.Point(292, 75);
+            this.checkBoxX3.Location = new System.Drawing.Point(292, 119);
             this.checkBoxX3.Name = "checkBoxX3";
             this.checkBoxX3.Size = new System.Drawing.Size(80, 21);
             this.checkBoxX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -304,7 +307,7 @@
             this.checkBoxX4.BackgroundStyle.Class = "";
             this.checkBoxX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.checkBoxX4.Enabled = false;
-            this.checkBoxX4.Location = new System.Drawing.Point(292, 124);
+            this.checkBoxX4.Location = new System.Drawing.Point(292, 168);
             this.checkBoxX4.Name = "checkBoxX4";
             this.checkBoxX4.Size = new System.Drawing.Size(80, 21);
             this.checkBoxX4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -321,7 +324,7 @@
             this.checkBoxX5.BackgroundStyle.Class = "";
             this.checkBoxX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.checkBoxX5.Enabled = false;
-            this.checkBoxX5.Location = new System.Drawing.Point(292, 173);
+            this.checkBoxX5.Location = new System.Drawing.Point(292, 217);
             this.checkBoxX5.Name = "checkBoxX5";
             this.checkBoxX5.Size = new System.Drawing.Size(80, 21);
             this.checkBoxX5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -338,7 +341,7 @@
             this.checkBoxX6.BackgroundStyle.Class = "";
             this.checkBoxX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.checkBoxX6.Enabled = false;
-            this.checkBoxX6.Location = new System.Drawing.Point(292, 222);
+            this.checkBoxX6.Location = new System.Drawing.Point(292, 266);
             this.checkBoxX6.Name = "checkBoxX6";
             this.checkBoxX6.Size = new System.Drawing.Size(80, 21);
             this.checkBoxX6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -355,7 +358,7 @@
             this.checkBoxX7.BackgroundStyle.Class = "";
             this.checkBoxX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.checkBoxX7.Enabled = false;
-            this.checkBoxX7.Location = new System.Drawing.Point(292, 320);
+            this.checkBoxX7.Location = new System.Drawing.Point(292, 364);
             this.checkBoxX7.Name = "checkBoxX7";
             this.checkBoxX7.Size = new System.Drawing.Size(80, 21);
             this.checkBoxX7.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -371,7 +374,7 @@
             // 
             this.labelX7.BackgroundStyle.Class = "";
             this.labelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX7.Location = new System.Drawing.Point(27, 320);
+            this.labelX7.Location = new System.Drawing.Point(27, 364);
             this.labelX7.Name = "labelX7";
             this.labelX7.Size = new System.Drawing.Size(127, 21);
             this.labelX7.TabIndex = 19;
@@ -383,7 +386,7 @@
             this.buttonX7.AutoSize = true;
             this.buttonX7.BackColor = System.Drawing.Color.Transparent;
             this.buttonX7.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX7.Location = new System.Drawing.Point(181, 318);
+            this.buttonX7.Location = new System.Drawing.Point(181, 362);
             this.buttonX7.Name = "buttonX7";
             this.buttonX7.Size = new System.Drawing.Size(75, 25);
             this.buttonX7.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -401,7 +404,7 @@
             this.checkBoxX8.BackgroundStyle.Class = "";
             this.checkBoxX8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.checkBoxX8.Enabled = false;
-            this.checkBoxX8.Location = new System.Drawing.Point(292, 369);
+            this.checkBoxX8.Location = new System.Drawing.Point(292, 413);
             this.checkBoxX8.Name = "checkBoxX8";
             this.checkBoxX8.Size = new System.Drawing.Size(80, 21);
             this.checkBoxX8.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -417,7 +420,7 @@
             // 
             this.labelX8.BackgroundStyle.Class = "";
             this.labelX8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX8.Location = new System.Drawing.Point(27, 369);
+            this.labelX8.Location = new System.Drawing.Point(27, 413);
             this.labelX8.Name = "labelX8";
             this.labelX8.Size = new System.Drawing.Size(87, 21);
             this.labelX8.TabIndex = 22;
@@ -429,7 +432,7 @@
             this.buttonX8.AutoSize = true;
             this.buttonX8.BackColor = System.Drawing.Color.Transparent;
             this.buttonX8.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX8.Location = new System.Drawing.Point(181, 367);
+            this.buttonX8.Location = new System.Drawing.Point(181, 411);
             this.buttonX8.Name = "buttonX8";
             this.buttonX8.Size = new System.Drawing.Size(75, 25);
             this.buttonX8.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -437,11 +440,60 @@
             this.buttonX8.Text = "列印";
             this.buttonX8.Click += new System.EventHandler(this.buttonX8_Click);
             // 
+            // checkBoxX9
+            // 
+            this.checkBoxX9.AutoSize = true;
+            this.checkBoxX9.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.checkBoxX9.BackgroundStyle.Class = "";
+            this.checkBoxX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkBoxX9.Enabled = false;
+            this.checkBoxX9.Location = new System.Drawing.Point(292, 75);
+            this.checkBoxX9.Name = "checkBoxX9";
+            this.checkBoxX9.Size = new System.Drawing.Size(80, 21);
+            this.checkBoxX9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkBoxX9.TabIndex = 27;
+            this.checkBoxX9.Text = "列印完成";
+            // 
+            // labelX9
+            // 
+            this.labelX9.AutoSize = true;
+            this.labelX9.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX9.BackgroundStyle.Class = "";
+            this.labelX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX9.Location = new System.Drawing.Point(27, 75);
+            this.labelX9.Name = "labelX9";
+            this.labelX9.Size = new System.Drawing.Size(127, 21);
+            this.labelX9.TabIndex = 25;
+            this.labelX9.Text = "列印轉學成績證明書";
+            // 
+            // buttonX9
+            // 
+            this.buttonX9.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX9.AutoSize = true;
+            this.buttonX9.BackColor = System.Drawing.Color.Transparent;
+            this.buttonX9.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX9.Location = new System.Drawing.Point(181, 73);
+            this.buttonX9.Name = "buttonX9";
+            this.buttonX9.Size = new System.Drawing.Size(75, 25);
+            this.buttonX9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX9.TabIndex = 26;
+            this.buttonX9.Text = "列印";
+            this.buttonX9.Click += new System.EventHandler(this.buttonX9_Click);
+            // 
             // OperationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 448);
+            this.ClientSize = new System.Drawing.Size(384, 505);
+            this.Controls.Add(this.checkBoxX9);
+            this.Controls.Add(this.labelX9);
+            this.Controls.Add(this.buttonX9);
             this.Controls.Add(this.checkBoxX8);
             this.Controls.Add(this.labelX8);
             this.Controls.Add(this.buttonX8);
@@ -502,5 +554,8 @@
           private DevComponents.DotNetBar.Controls.CheckBoxX checkBoxX8;
           private DevComponents.DotNetBar.LabelX labelX8;
           private DevComponents.DotNetBar.ButtonX buttonX8;
+          private DevComponents.DotNetBar.Controls.CheckBoxX checkBoxX9;
+          private DevComponents.DotNetBar.LabelX labelX9;
+          private DevComponents.DotNetBar.ButtonX buttonX9;
      }
 }

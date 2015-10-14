@@ -14,7 +14,8 @@ namespace AllWorkReport
 {
      public partial class OperationForm : BaseForm
      {
-          private string URL轉學證明書 = "ischool/國中系統/學生/報表/成績/轉學證明書";
+          private string URL轉學證明書 = "ischool/國中系統/學生/報表/學籍/轉學證明書";
+          private string URL轉學成績證明書 = "ischool/國中系統/學生/報表/成績/轉學證明書";
 
           private string URL期中轉學證明書 = "ischool/國中系統/學生/報表/成績/期中轉學證明書";
 
@@ -151,6 +152,19 @@ namespace AllWorkReport
               {
                   Features.Invoke(URL轉出回條);
                   checkBoxX8.Checked = true;
+              }
+              catch
+              {
+                  MsgBox.Show("未掛載相關模組!");
+              }
+          }
+
+          private void buttonX9_Click(object sender, EventArgs e)
+          {
+              try
+              {
+                  Features.Invoke(URL轉學成績證明書);
+                  checkBoxX9.Checked = true;
               }
               catch
               {
