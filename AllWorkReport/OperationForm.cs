@@ -23,7 +23,7 @@ namespace AllWorkReport
 
         private string URL學生幹部證明單 = "ischool/幹部系統/共用/學務/學生/報表/幹部證明單";//"ischool/幹部模組/學生/報表/學務/學生幹部證明單";
 
-        private string URL學生訓導記錄表 = "ischool/國中系統/學生/報表/學務/學生訓導記錄表";
+        private string URL學生訓導記錄表 = "ischool/國中系統/學生/報表/學務/學生訓導紀錄表";
         private string URL體適能證明單 = "ischool/國中系統/學生/報表/體適能/體適能證明單";
 
         private string URL社團參與證明單1 = "ischool/高雄專案/學生/報表/社團/社團參與證明單_高雄";
@@ -43,9 +43,9 @@ namespace AllWorkReport
                 Features.Invoke(URL轉學證明書);
                 checkBoxX1.Checked = true;
             }
-            catch
+            catch (Exception ex)
             {
-                MsgBox.Show("未掛載相關模組!");
+                MsgBox.Show("啟動功能發生錯誤:\n" + ex.Message);
             }
 
         }
@@ -57,9 +57,9 @@ namespace AllWorkReport
                 Features.Invoke(URL期中轉學證明書);
                 checkBoxX2.Checked = true;
             }
-            catch
+            catch (Exception ex)
             {
-                MsgBox.Show("未掛載相關模組!");
+                MsgBox.Show("啟動功能發生錯誤:\n" + ex.Message);
             }
         }
 
@@ -71,9 +71,9 @@ namespace AllWorkReport
                 Features.Invoke(URL學籍表);
                 checkBoxX3.Checked = true;
             }
-            catch
+            catch (Exception ex)
             {
-                MsgBox.Show("未掛載相關模組!");
+                MsgBox.Show("啟動功能發生錯誤:\n" + ex.Message);
             }
         }
 
@@ -85,9 +85,9 @@ namespace AllWorkReport
                 Features.Invoke(URL學生幹部證明單);
                 checkBoxX4.Checked = true;
             }
-            catch
+            catch (Exception ex)
             {
-                MsgBox.Show("未掛載相關模組!");
+                MsgBox.Show("啟動功能發生錯誤:\n" + ex.Message);
             }
         }
 
@@ -98,9 +98,9 @@ namespace AllWorkReport
                 Features.Invoke(URL學生訓導記錄表);
                 checkBoxX5.Checked = true;
             }
-            catch
+            catch (Exception ex)
             {
-                MsgBox.Show("未掛載相關模組!");
+                MsgBox.Show("啟動功能發生錯誤:\n"+ex.Message);
             }
         }
 
@@ -111,9 +111,9 @@ namespace AllWorkReport
                 Features.Invoke(URL體適能證明單);
                 checkBoxX6.Checked = true;
             }
-            catch
+            catch (Exception ex)
             {
-                MsgBox.Show("未掛載相關模組!");
+                MsgBox.Show("啟動功能發生錯誤:\n" + ex.Message);
             }
         }
 
@@ -138,10 +138,9 @@ namespace AllWorkReport
                     Features.Invoke(URL社團參與證明單2);
                     checkBoxX7.Checked = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
-                    MsgBox.Show("無此功能");
+                    MsgBox.Show("啟動功能發生錯誤:\n" + ex.Message);
                 }
             }
         }
@@ -153,9 +152,9 @@ namespace AllWorkReport
                 Features.Invoke(URL轉出回條);
                 checkBoxX8.Checked = true;
             }
-            catch
+            catch (Exception ex)
             {
-                MsgBox.Show("未掛載相關模組!");
+                MsgBox.Show("啟動功能發生錯誤:\n" + ex.Message);
             }
         }
 
@@ -166,9 +165,9 @@ namespace AllWorkReport
                 Features.Invoke(URL轉學成績證明書);
                 checkBoxX9.Checked = true;
             }
-            catch
+            catch (Exception ex)
             {
-                MsgBox.Show("未掛載相關模組!");
+                MsgBox.Show("啟動功能發生錯誤:\n" + ex.Message);
             }
         }
     }
